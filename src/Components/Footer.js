@@ -42,7 +42,7 @@ const bottomFooter = () => {
 
         <SocialIcon url="https://twitter.com/blackfalcon_unc" />
         <SocialIcon url="https://www.instagram.com/floyds_fotos/" />
-        <SocialIcon url="https://github.com/walkerfloyd1" />
+        <SocialIcon url="https://github.com/walkerfloyd1/portfolio-part3" />
         <SocialIcon url="https://www.linkedin.com/in/walker-floyd-b53182123/" />
         
     </Grid>

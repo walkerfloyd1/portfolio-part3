@@ -39,8 +39,8 @@ class Bio extends Component {
                         textAlign: "center",
                         fontFamily: "Raleway, sans-serif"
                     }}>
-                <p> I am a web developer experienced in: HTML, CSS, NodeJS, MongoDB, MySQL, Sequelize, Javascript, and React. I am 23 years old and am a graduate of Emerson College and most recently completed a 3 Month Full-Time Intensive Full Stack Web Development Program at UCLA Extension</p>
-                <p> My hobbies include: Photography, coding, screenwriting, exercising, learning, and watching movies. Please click on one of the tabs above to check out my work!</p>
+                <p> I am a web developer experienced in: HTML, CSS, NodeJS, MongoDB, MySQL, Sequelize, Javascript, React, and Redux. I am 23 years old and am a graduate of Emerson College and most recently completed a 3 Month Full-Time Intensive Full Stack Web Development Program at UCLA Extension</p>
+                <p> Please click on one of the tabs above to check out my work!</p>
                     </Container>
                 </Grid>
 

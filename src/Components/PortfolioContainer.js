@@ -14,9 +14,9 @@ import Image from 'react-image-resizer';
 
 import Grid from '@material-ui/core/Grid';
 
-import Skull from '../images/skull.jpg';
+import Popcorn from '../images/popcorn.jpeg';
 
-import Bamazon from '../images/bamazon.png';
+import Twitter from '../images/twitter.jpg';
 
 import Books from '../images/books.jpg';
 
@@ -43,10 +43,15 @@ export default function MediaCard() {
   justify="center"
   style={{ 
     minHeight: '100vh',
-    paddingLeft: "15%",
     paddingBottom: "30px",
-    fontFamily: "Raleway, sans-serif" }}>
-    <Grid item xs={6}>
+    fontFamily: "Raleway, sans-serif",
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    paddingLeft: "80px"
+    }}>
+    <Grid item xs={4}>
     <Card className={classes.card}
               style={{
                 backgroundColor: "#004d99",
@@ -55,26 +60,26 @@ export default function MediaCard() {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image={Skull}
+          image={Popcorn}
           title="Contemplative Reptile"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Try Not To Die
+            MovieNight
           </Typography>
           <Typography variant="body2" component="p">
-          Try Not To Die is a health app that encourages healthy habits. It matches users with workout buddies, healthy recipes, and information about preventative services.
+          MovieNight is a web app that allows users to plan a movie night in, or a movie night out, as well as provides suggestions for movies to watch and snacks to eat.
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions style={{
       backgroundColor: "#99ccff"
     }}>
-      <SocialIcon url="https://github.com/funkadelic83/try-not-to-die" />
+      <SocialIcon url="https://github.com/walkerfloyd1/MovieNight" />
       </CardActions>
     </Card>
     </Grid>
-    <Grid item xs={6}>
+    <Grid item xs={4}>
     <Card className={classes.card}
     style={{
       backgroundColor: "#004d99",
@@ -83,26 +88,26 @@ export default function MediaCard() {
     <CardActionArea>
       <CardMedia
         className={classes.media}
-        image={Bamazon}
+        image={Twitter}
         title="Contemplative Reptile"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="h2">
-          Bamazon
+          NickBot
         </Typography>
         <Typography variant="body2" component="p">
-        This is an Amazon-like storefront using MySQL. The app will take in orders from customers and deplete stock from the store's inventory.
+        This is a Twitter bot I created to annoy my best friend. It instantly favorites and retweets every single one of his and my tweets.
         </Typography>
       </CardContent>
     </CardActionArea>
     <CardActions style={{
       backgroundColor: "#99ccff"
     }}>
-    <SocialIcon url="https://github.com/walkerfloyd1/amazon-mysql" />
+    <SocialIcon url="https://github.com/walkerfloyd1/twitter-bot" />
     </CardActions>
   </Card>
   </Grid>
-  <Grid item xs={6}>
+  <Grid item xs={4}>
   <Card className={classes.card}
   style={{
     backgroundColor: "#004d99",
@@ -127,36 +132,6 @@ export default function MediaCard() {
       backgroundColor: "#99ccff"
     }}>
     <SocialIcon url="https://github.com/Jokatsu/StoryTime" />
-    </CardActions>
-  </Card>
-  </Grid>
-  <Grid item xs={6}>
-  <Card className={classes.card}
-  style={{
-    backgroundColor: "#004d99",
-    color: "white"
-  }}
-  >
-    <CardActionArea>
-      <CardMedia
-        className={classes.media}
-        image={Friends}
-        title="Contemplative Reptile"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="h2">
-          FriendFinder
-        </Typography>
-        <Typography variant="body2" component="p">
-        This is an app that recommends friends to users based on their answers to a short questionnaire.
-        </Typography>
-      </CardContent>
-    </CardActionArea>
-    <CardActions style={{
-      backgroundColor: "#99ccff"
-    }}>
-    <SocialIcon url="https://github.com/walkerfloyd1/friendfinderapp" />
-    <SocialIcon url="https://ancient-meadow-89678.herokuapp.com/" />
     </CardActions>
   </Card>
   </Grid>
