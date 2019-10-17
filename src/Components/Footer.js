@@ -32,7 +32,7 @@ const bottomFooter = () => {
     <IconContext.Provider value={{ color: "#809fff",
     size: "60px"}}>
     <Grid item sm={3}>
-    <a href="tel:+18432713434"><FaPhone style={{
+    <a href="tel:+16268173064"><FaPhone style={{
         color: "#00ace6"
     }}/></a>
     </Grid>
@@ -47,7 +47,7 @@ const bottomFooter = () => {
         
     </Grid>
     <Grid item sm={3}>
-    <a href="mailto:walkerkeatley@yahoo.com"><FaEnvelope style={{
+    <a href="mailto:walkerfloydprofessional@gmail.com"><FaEnvelope style={{
         color: "#33adff"
     }}/></a>
         </Grid>

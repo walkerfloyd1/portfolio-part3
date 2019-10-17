@@ -22,6 +22,8 @@ export default class  ControlledCarousel extends Component {
     return (
       <Carousel showThumbs={false} style={{
         fontFamily: "Raleway, sans-serif",
+        paddingTop: "60px",
+        height: "400px"
       }}>
       <div class="pic">
           <img src={Beaufort} />
@@ -31,41 +33,41 @@ export default class  ControlledCarousel extends Component {
               <p>Beaufort, SC</p>
           </div>
       </div>
-      <div class="pic">
+      <div class="photo">
           <img src={Cake} />
           <div class="overlay">Cake</div>
       </div>
-      <div class="pic">
+      <div class="photo">
           <img src={Bridge} />
           <div class="overlay">
               <p>South Carolina Summer</p>
           </div>
       </div>
-      <div class="pic">
+      <div class="photo">
           <img src={Expanse} />
           <div class="overlay">Sunny Day in Boston</div>
       </div>
-      <div class="pic">
+      <div class="photo">
           <img src={Fripp} />
           <div class="overlay">Stormy Day at Fripp Island</div>
       </div>
-      <div class="pic">
+      <div class="photo">
           <img src={Houses} />
           <div class="overlay">Summer</div>
       </div>
-      <div class="pic">
+      <div class="photo">
           <img src={Newpoint} />
           <div class="overlay">Sunset in South Carolina</div>
       </div>
-      <div class="pic">
+      <div class="photo">
           <img src={Nature} />
           <div class="overlay">Home</div>
       </div>
-      <div class="pic">
+      <div class="photo">
           <img src={Dock} />
           <div class="overlay">Dock at Sunset</div>
       </div>
-      <div class="pic">
+      <div class="photo">
           <img src={Sun} />
           <div class="overlay">Sunny Day in Boston</div>
       </div>
