@@ -131,7 +131,7 @@ export default function MediaCard() {
     <CardActions style={{
       backgroundColor: "#99ccff"
     }}>
-    <SocialIcon url="https://github.com/Jokatsu/StoryTime" />
+    <SocialIcon url="https://github.com/walkerfloyd1/StoryTime2" />
     </CardActions>
   </Card>
   </Grid>
