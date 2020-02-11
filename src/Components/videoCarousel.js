@@ -23,9 +23,6 @@ export default class ControlledCarousel extends Component {
                     <iframe src="https://player.vimeo.com/video/247003506" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
                 </div> */}
 <div>
-<iframe src="https://player.vimeo.com/video/196351548" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-</div>
-<div>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-JCj2gLRfzk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <div>

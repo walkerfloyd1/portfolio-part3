@@ -16,7 +16,6 @@ function App() {
   return (
     <Router>
     <Switch>
-      <Route exact path="/portfolio" component={Portfolio} />
       <Route exact path="/profile" component={Profile} />
       <Route exact path="/film" component={Film} />
       <Route exact path="/photo" component={Photo} />

@@ -54,14 +54,6 @@ class Navbar extends React.Component {
                   Profile
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link
-                  to="/portfolio"
-                  className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
-                >
-                  Coding
-                </Link>
-             </li>
              <li className="nav-item">
                 <Link
                   to="/film"
