@@ -65,16 +65,6 @@ class Home extends Component {
                     
                             onClick={this.routeProfile}
                         >Profile</Button>
-                <Button 
-                            style={{
-                                width: '100%',
-                                textAlign: "center",
-                                justifyContent: "center",
-                                fontFamily: "Raleway, sans-serif",
-                                fontSize: "20px",
-                            }}
-                            onClick={this.routePortfolio}
-                >Coding</Button>
                 <Button
                         color="text.primary"
                         style={{
