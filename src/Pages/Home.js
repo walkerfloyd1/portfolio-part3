@@ -16,7 +16,7 @@ class Home extends Component {
     constructor() {
         super()
         this.routeProfile = this.routeProfile.bind(this);
-        this.routePortfolio = this.routePortfolio.bind(this);
+        this.routeWriting = this.routeWriting.bind(this);
         this.routeFilm = this.routeFilm.bind(this);
         this.routePhotography = this.routePhotography.bind(this);
     }
@@ -25,8 +25,8 @@ class Home extends Component {
         this.props.history.push(path);
     }
 
-    routePortfolio() {
-        let path= '/portfolio'
+    routeWriting() {
+        let path= '/writing'
         this.props.history.push(path);
     }
     routeFilm() {
@@ -63,8 +63,8 @@ class Home extends Component {
                             fontSize: "20px",
                         }}
                     
-                            onClick={this.routeProfile}
-                        >Profile</Button>
+                            onClick={this.routeWriting}
+                        >Writing</Button>
                 <Button
                         color="text.primary"
                         style={{

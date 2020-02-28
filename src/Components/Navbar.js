@@ -70,6 +70,14 @@ class Navbar extends React.Component {
                   Photography
                 </Link>
              </li>
+             <li className="nav-item">
+                <Link
+                  to="/writing"
+                  className={window.location.pathname === "/writing" ? "nav-link active" : "nav-link"}
+                >
+                  Writing
+                </Link>
+             </li>
             </ul>
             </Menu>
           }

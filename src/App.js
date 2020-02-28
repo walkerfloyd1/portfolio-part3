@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Link, Switch, Redirect } from "react-router-dom";
 import './App.css';
 
-import Portfolio from './Pages/Portfolio';
+import Writing from './Pages/Writing';
 
 import Profile from './Pages/Profile';
 
@@ -16,6 +16,7 @@ function App() {
   return (
     <Router>
     <Switch>
+      <Route exact path="/writing" component={Writing} />
       <Route exact path="/profile" component={Profile} />
       <Route exact path="/film" component={Film} />
       <Route exact path="/photo" component={Photo} />
